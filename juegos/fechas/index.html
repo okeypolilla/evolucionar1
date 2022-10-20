@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -->
+	<!-- Sweet Alerts -->
+		<link rel="icon" href="../..//common/styles/img/favicon.png" type="image/x-icon" />
+		<script src="../../common/alerts/_SWEETALERT/sweetalert2.min.js"></script>
+		<script src="../../common/alerts/_SWEETALERT/SWA.js"></script>
+		<link rel="stylesheet" href="../../common/alerts/_SWEETALERT/sweetalert2.min.css" />
+
+        <!-- Scripts Functions -->
+        <!-- ACA VAN LAS CONEXIONES DE JS-->
+        <script src="js/Sortable.js"></script>
+        <script src="js/Sortable.min.js"></script>
+        <script src="js/main.js" defer></script>
+
+        <!-- Scripts CSS -->
+        <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.css">
+
+
+        <title> Asociar Fechas </title>
+    </head>
+    <body>
+        <div class="box">
+            <form>
+               <div id="box">
+
+                    <h1 style="color:white;text-align:center"><label><b>Asociar Fechas</b></label></h1>
+
+                    <div>
+                        <label>
+                            <!--Aqui pon textos, explicaciones, etc... -->
+                        </label>
+                    </div>
+
+                   
+                    <div id="shared-lists" class="row" style="text-align: center;" onchange="comprobar ()">
+                            <div id="example2left" class="list-group col">
+                            </div>
+                    
+                            <div id="example2med" class="list-group col">
+                            </div>
+                    
+                            <div id="example2right" class="list-group col">
+                            </div>
+
+                            <div id="example3" class="list-group col">
+                            </div>
+                    </div>  
+                    
+
+                    <div id="salir" style="text-align: center;">
+                        <input type="button" class="btn" id="Fin" value="VALIDAR" onclick="comprobar ()">
+                        <input type="button" class="btn" id="salir" value="SALIR" onclick="location.href='../../index.html'">
+                    </div>
+                </div>
+
+                <script type="text/javascript" src="st/prettify/prettify.js"></script>
+                <script src="st/app.js"></script>
+            </form>
+        </div>
+    </body>
+</html>

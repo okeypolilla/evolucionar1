@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -->
+    <!-- -->
+    <title>Frases</title>
+  	<link rel="icon" href="../..//common/styles/img/favicon.png" type="image/x-icon" />
+	  
+    <!-- Sweet Alerts -->
+    <script src="../../common/alerts/_SWEETALERT/sweetalert2.min.js"></script>
+    <script src="../../common/alerts/_SWEETALERT/SWA.js"></script>
+    <link rel="stylesheet" href="../../common/alerts/_SWEETALERT/sweetalert2.min.css" />
+
+    <!-- JS -->
+    <script src="js/start.js"></script>
+    <script src="js/presets.js"></script>
+    <script src="js/functions.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../common/styles/css/commonStyle.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <form>
+        <button style="display: none"></button>
+        <div id="box" style="display: none">
+          <h1 style="text-align: center">
+            <label><b>A QUE CATEGORIA PERTENECE LA SIGUIENTE DEFINICION?</b></label
+            >
+          </h1>
+          <h3 id="phrase" style="text-align: center"></h3>
+
+          <div id="box_btn" style="text-align: center">
+            <button
+              type="button"
+              class="btn"
+              id="ans1"
+              value="0"
+              onclick="choice(1)"
+            >
+              <b>Option 1</b>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="ans2"
+              value="0"
+              onclick="choice(2)"
+            >
+              <b>Option 2</b>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="ans3"
+              value="0"
+              onclick="choice(3)"
+            >
+              <b>Option 3</b>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="ans4"
+              value="0"
+              onclick="choice(4)"
+            >
+              <b>Option 4</b>
+            </button>
+          </div>
+
+          <div id="salir" style="text-align: center">
+            <input
+              type="button"
+              class="btn"
+              id="salir"
+              value="SALIR"
+              onclick="location.href='../../index.html'"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

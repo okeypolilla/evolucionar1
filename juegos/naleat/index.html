@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros Aleatorios</title>
+    <link rel="icon" href="../../common/styles/img/favicon.png" type="image/x-icon" />
+    <!-- Sweet Alerts -->
+    <script src="../../common/alerts/_SWEETALERT/sweetalert2.min.js"></script>
+    <script src="../../common/alerts/_SWEETALERT/SWA.js"></script>
+    <link rel="stylesheet" href="../../common/alerts/_SWEETALERT/sweetalert2.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../common/styles/css/commonStyle.css" />
+    <link rel="stylesheet" href="style/css/style2.css" />
+</head>
+<body>
+    <div class="BBox">
+        
+        <form>
+            <div id="_box">
+                <center>
+                    <a id="info"><img src="./style/trophy.png" style="width: 32px; height: 32px;">
+                        <br>
+                        <small>Puntaje</small>
+                    </a>
+                </center>
+    
+                <h1 id="title" style="text-align:center"><label><b>Numeros Aleatorios</b></label></h1>
+    
+                <div>
+                    <label>
+                        <!--Aqui pon textos, explicaciones, etc... -->
+                        <p id="txt" style="text-align: center;">
+                            ¡Recordá el orden y superá la ronda 5 para ganar! 
+                        </p>
+
+                        
+                    </label>
+                </div>
+    
+                <div id="box_btn" style="text-align: center;">
+                 
+                    <label style="font-size:2vw" id="uSelect"></label>
+                    <div id="npad" class="box2" style="display:none">
+                        
+
+                    </div>
+    
+                </div>
+    
+                <div id="btnoptions" style="text-align: center;">
+                    <input type="button" id="start" class="btnUP" value="Empezar" onclick="gameStart()">
+                    <input
+                    type="button"
+                    class="btnUP"
+                    id="salir"
+                    value="SALIR"
+                    onclick="location.href='../../index.html'"
+                  />
+                    <input type="button" style="display:none" id="validate" class="btn" value="Validar">
+                    
+                    <input type="button" style="display:none" id="clean" class="btn" value="Borrar"  >
+                </div>
+    
+    
+    
+    
+    
+            </div>
+        </form>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>

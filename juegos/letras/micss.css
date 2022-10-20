@@ -1,0 +1,32 @@
+/*Agustin Centeno*/
+
+.btn
+{   
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+@keyframes girar {
+    
+}
+
+
+
+
+body{
+    text-align: center;
+}
+
+
+.box2{
+    border-width:2px;
+    border-style:dashed;
+    border-color:#FFF;
+    border-radius:15px;
+    margin:8px;
+    background-color:#000;
+    opacity:0.5;
+    padding:8px;
+	color:white;
+}

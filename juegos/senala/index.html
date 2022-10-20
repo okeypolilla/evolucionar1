@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="../..//common/styles/img/favicon.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <!-- Sweet Alerts -->
+    <script src="../../common/alerts/_SWEETALERT/sweetalert2.min.js"></script>
+    <script src="../../common/alerts/_SWEETALERT/SWA.js"></script>
+    <link rel="stylesheet" href="../../common/alerts/_SWEETALERT/sweetalert2.min.css" />
+
+    <!-- Scripts Functions -->
+    <script src="js/start.js"></script>
+    <script src="js/presets.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!-- Scripts CSS -->
+    <link rel="stylesheet" href="../../common/styles/css/commonStyle.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css">   
+
+    <title> ¡Señala el Animal! </title>
+    <link rel="icon" href="../../index/TDAH-img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="box" id="box">
+      <h1><label><b>¡Señala el Animal!</b></label></h1>
+
+        <div class="images">
+            <div class="img1">
+                <img src="styles/img/S1.png" style="margin: top; cursor:default" type="img" id="phS">
+                <br><br>
+            </div>
+            <div id="imgOps">
+                <img src="styles/img/S1.png" type="img" id="ans1" value="1" alt="Cannot Display Image 1" style="background-color: rgba(255, 0, 0, 0.1);" onclick=choice(1)>
+                <img src="styles/img/S2.png" type="img" id="ans2" value="2" alt="Cannot Display Image 2" style="background-color: rgba(0, 255, 0, 0.1);" onclick=choice(2)>
+                <img src="styles/img/S3.png" type="img" id="ans3" value="3" alt="Cannot Display Image 3" style="background-color: rgba(0, 0, 255, 0.1);" onclick=choice(3)>
+                <img src="styles/img/S4.png" type="img" id="ans4" value="4" alt="Cannot Display Image 4" style="background-color: rgba(225, 255, 0, 0.1)" onclick=choice(4)>
+            </div>
+        </div>
+
+        <!-- Revisar ID y TAG del DIV, modificar JS para mostrar respuesta correcta-->
+
+
+         <!--<table>
+            <tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><label>
+                    <img src="styles/img/S1.png" type="img" id="ans1" value="0" onclick=choice(1)>
+                </label></td>
+                <td style="text-align: center;">
+                    <img src="styles/img/S2.png" type="img" id="ans2" value="0" onclick=choice(2)>
+                </td>
+                <td style="text-align: center;">
+                    <img src="styles/img/S3.png" type="img" id="ans3" value="0" onclick=choice(3)>
+                </td>
+                <td style="text-align: center;">
+                    <img src="styles/img/S4.png" type="img" id="ans4" value="0" onclick=choice(4)>
+                </td>
+            </tr>
+        </table>-->
+
+        <div id="salir" style="text-align: center;">
+            <input type="button" class="btn" id="salir" value="SALIR" onclick="location.href='../../index.html'">
+        </div>
+
+    </div>
+
+    
+        
+</body>
+</html>

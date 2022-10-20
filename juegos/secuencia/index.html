@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -->
+    <!-- -->
+    <title>Secuencia Visual</title>
+    <link rel="icon" href="../../common/styles/img/favicon.png" type="image/x-icon" />
+    <!-- Sweet Alerts -->
+    <script src="../../common/alerts/_SWEETALERT/sweetalert2.min.js"></script>
+    <script src="../../common/alerts/_SWEETALERT/SWA.js"></script>
+    <link rel="stylesheet" href="../../common/alerts/_SWEETALERT/sweetalert2.min.css" />
+    <!-- JS -->
+    <script src="js/frameworks/Sortable.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../common/styles/css/commonStyle.css" />
+
+    <link rel="stylesheet" href="styles/css/win.css">
+    <link rel="stylesheet" href="styles/css/style.css">
+    <link rel="stylesheet" href="styles/css/style2.css">
+  </head>
+
+  <body style="font-family: 'Noto-Sans', sans-serif; text-align: center">
+    <div id="box" class="box" style=" width: 90%;">
+      <label
+        ><h2  id="title">
+          <b>Secuencia Visual</b>
+        </h1></label>
+      <div
+        id="central"
+        style="
+          padding-top: 10px;
+          padding-right: 50px;
+          padding-left: 50px;
+          text-align: center;
+        "
+      >
+        <div id="WT"></div>
+        <div id="rec" class="rec"></div>
+        <div id="rec2" class="rec"></div>
+      </div>
+
+      <div id="buttons" style="text-align: center;">
+        <label>
+          <button id="button" class="btn" onClick="checkWin()">Probar</button>
+          <input
+            type="button"
+            class="btn"
+            id="salir"
+            value="SALIR"
+            onclick="location.href='../../index.html'"
+          />
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
